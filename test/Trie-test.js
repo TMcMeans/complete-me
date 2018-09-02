@@ -29,19 +29,15 @@
  });
 
  describe('SUGGEST', () => {
-  it('should correctly count how many words have been inserted', () => {
-   
-
+  it('should correctly return an array with words from a suggested prefix', () => {
+      prefixTrie.insert('child');
+      prefixTrie.insert('chai');
+      prefixTrie.insert('chop');
+      prefixTrie.insert('church');
+      prefixTrie.suggest('ch');
+      console.log(prefixTrie.wordList);
+      expect(prefixTrie.wordList).to.equal([ 'child', 'chai', 'chop', 'church' ]);
     });
  });
-
-  describe('POPULATE', () => {
-  it('should correctly count how many words have been inserted', () => {
-   
-   
-    });
- });
-
-
 
 });  
