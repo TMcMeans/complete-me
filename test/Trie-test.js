@@ -36,7 +36,7 @@
       prefixTrie.insert('church');
       prefixTrie.suggest('ch');
       console.log(prefixTrie.wordList);
-      expect(prefixTrie.wordList).to.equal([ 'child', 'chai', 'chop', 'church' ]);
+      expect(prefixTrie.wordList).to.deep.equal([ 'child', 'chai', 'chop', 'church' ]);
     });
  });
 
