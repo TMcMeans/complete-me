@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "@tmcmeans/autocomplete",
   "version": "1.0.0",
   "description": "Super awesome test boilerplate",
   "main": "index.js",
@@ -29,5 +29,13 @@
     "style-loader": "^0.22.1",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TMcMeans/complete-me.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TMcMeans/complete-me/issues"
+  },
+  "homepage": "https://github.com/TMcMeans/complete-me#readme"
 }
